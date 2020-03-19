@@ -3,10 +3,11 @@ import Sequelize from 'sequelize';
 import User from '../app/models/User';
 import Tag from '../app/models/Tag';
 import Tool from '../app/models/Tool';
+import TagsTools from '../app/models/TagsTools';
 
 import databaseConfig from '../config/database';
 
-const models = [User, Tag, Tool];
+const models = [User, Tag, Tool, TagsTools];
 
 class Database {
   constructor() {
